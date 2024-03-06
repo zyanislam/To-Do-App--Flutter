@@ -27,10 +27,14 @@ class _HomePageState extends State<HomePage> {
 
   void addTask() {
     setState(() {
+      if (_controller.text.isEmpty) {
+        Navigator.of(context).pop();
+        return;
+      }
       toDoList.add([_controller.text, false]);
       _controller.clear();
+      Navigator.of(context).pop();
     });
-    Navigator.of(context).pop();
   }
 
   void addNewTask() {

@@ -39,7 +39,7 @@ class DialogBox extends StatelessWidget {
                 hintText: "Add New Task!",
                 hintStyle: TextStyle(
                     color: Color.fromARGB(
-                        255, 214, 214, 214)), // Set hint text color to white
+                        255, 146, 139, 139)), // Set hint text color to white
               ),
             ),
             Row(
