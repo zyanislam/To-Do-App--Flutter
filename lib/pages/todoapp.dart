@@ -14,9 +14,8 @@ class _HomePageState extends State<HomePage> {
   final _controller = TextEditingController();
 
   List toDoList = [
-    ["Make Cake", true],
-    ["Buy Juice", false],
-    ["Go out", true],
+    ["Buy a juicebox", false],
+    ["Meet friends at 4pm!", true],
   ];
 
   void checkBoxChanged(bool? value, int index) {
