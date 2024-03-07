@@ -50,7 +50,9 @@ class _HomePageState extends State<HomePage> {
   }
 
   void removeTask(int index) {
-    toDoList.remove(index);
+    setState(() {
+      toDoList.removeAt(index);
+    });
   }
 
   @override
