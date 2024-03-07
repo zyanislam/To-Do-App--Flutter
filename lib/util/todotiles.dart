@@ -29,7 +29,7 @@ class ToDoList extends StatelessWidget {
             SlidableAction(
               onPressed: remove,
               icon: Icons.delete,
-              backgroundColor: Color.fromARGB(255, 255, 101, 101),
+              backgroundColor: Color.fromARGB(255, 250, 80, 80),
               borderRadius: BorderRadius.circular(8.0),
             ),
           ],
@@ -37,7 +37,7 @@ class ToDoList extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
             color: Color.fromARGB(255, 31, 40, 47),
-            borderRadius: BorderRadius.circular(16),
+            borderRadius: BorderRadius.circular(10),
           ),
           child: Padding(
             padding: EdgeInsets.all(20.0),
