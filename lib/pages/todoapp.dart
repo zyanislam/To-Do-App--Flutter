@@ -74,8 +74,13 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {
           addNewTask();
         },
+        backgroundColor:
+            Color.fromARGB(255, 54, 79, 98), // Set your desired color here
         // ignore: prefer_const_constructors
-        child: Icon(Icons.add),
+        child: Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
       ),
       body: ListView.builder(
         itemCount: toDoList.length,
